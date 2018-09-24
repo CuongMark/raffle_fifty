@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+	<widget class="Angel\Fifty\Block\Widget\HotFifty" id="angel_fifty_hotfifty">
+		<label>HotFifty</label>
+		<description>HotFifty</description>
+		<parameters>
+			<parameter name="max_raffle" sort_order="10" visible="true" xsi:type="text">
+				<label>max_raffle</label>
+			</parameter>
+		</parameters>
+	</widget>
+</widgets>

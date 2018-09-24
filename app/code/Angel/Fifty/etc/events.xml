@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="sales_invoice_item_save_after">
+		<observer instance="Angel\Fifty\Observer\Sales\InvoiceItemSaveAfter" name="angel_fifty_observer_sales_invoiceitemsaveafter_sales_invoice_item_save_after"/>
+	</event>
+	<event name="controller_action_catalog_product_save_entity_after">
+		<observer instance="Angel\Fifty\Observer\Controller\ActionCatalogProductSaveEntityAfter" name="angel_fifty_observer_controller_actioncatalogproductsaveentityafter_controller_action_catalog_product_save_entity_after"/>
+	</event>
+	<event name="catalog_controller_category_init_after">
+		<observer instance="Angel\Fifty\Observer\Catalog\ControllerCategoryInitAfter" name="angel_fifty_observer_catalog_controllercategoryinitafter_catalog_controller_category_init_after"/>
+	</event>
+	<event name="catalog_controller_product_init_after">
+		<observer instance="Angel\Fifty\Observer\Catalog\ControllerProductInitAfter" name="angel_fifty_observer_catalog_controllerproductinitafter_catalog_controller_product_init_after"/>
+	</event>
+	<event name="catalog_product_is_salable_after">
+		<observer instance="Angel\Fifty\Observer\Catalog\ProductIsSalableAfter" name="angel_fifty_observer_catalog_productissalableafter_catalog_product_is_salable_after"/>
+	</event>
+</config>

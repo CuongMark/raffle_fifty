@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceContainer name="customer_account_navigation">
+			<block as="customer_account_sortlink" class="Angel\Fifty\Block\Customer\Account\SortLink" name="customer.account.sortlink" template="Angel_Fifty::customer/account/sortlink.phtml"/>
+		</referenceContainer>
+	</body>
+</page>

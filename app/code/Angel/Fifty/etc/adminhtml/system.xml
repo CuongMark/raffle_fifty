@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="angel" sortOrder="999" translate="label">
+			<label>angel</label>
+		</tab>
+		<section id="fifty" showInDefault="1" showInStore="0" showInWebsite="0" sortOrder="20" translate="label">
+			<label>Fifty</label>
+			<tab>angel</tab>
+			<resource>Angel_Fifty::config_angel_fifty</resource>
+			<group id="general" showInDefault="1" showInStore="0" showInWebsite="0" sortOrder="20" translate="label">
+				<label>General</label>
+				<field id="enable" showInDefault="1" showInStore="0" showInWebsite="0" sortOrder="20" translate="label" type="select">
+					<label>Enable</label>
+					<comment>Enable/Disable 50-50 Raffle extension. If this is disable, raffle product will be not sale able.</comment>
+					<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>

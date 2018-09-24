@@ -1,0 +1,22 @@
+{
+    "name": "angel/module-fifty",
+    "description": "Angel 50-50 raffle extension",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "cuonglv53@gmail.com",
+            "name": "Lam Viet Cuong"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Angel\\Fifty\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

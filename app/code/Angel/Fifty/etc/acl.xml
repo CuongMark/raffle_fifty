@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+	<acl>
+		<resources>
+			<resource id="Magento_Backend::admin">
+				<resource id="Angel_Fifty::Ticket" sortOrder="10" title="Ticket">
+					<resource id="Angel_Fifty::Ticket_save" sortOrder="10" title="Save Ticket"/>
+					<resource id="Angel_Fifty::Ticket_delete" sortOrder="20" title="Delete Ticket"/>
+					<resource id="Angel_Fifty::Ticket_update" sortOrder="30" title="Update Ticket"/>
+					<resource id="Angel_Fifty::Ticket_view" sortOrder="40" title="View Ticket"/>
+				</resource>
+				<resource id="Angel_Fifty::Winning_number" sortOrder="10" title="Winning_number">
+					<resource id="Angel_Fifty::Winning_number_save" sortOrder="10" title="Save Winning_number"/>
+					<resource id="Angel_Fifty::Winning_number_delete" sortOrder="20" title="Delete Winning_number"/>
+					<resource id="Angel_Fifty::Winning_number_update" sortOrder="30" title="Update Winning_number"/>
+					<resource id="Angel_Fifty::Winning_number_view" sortOrder="40" title="View Winning_number"/>
+				</resource>
+				<resource id="Magento_Backend::stores">
+					<resource id="Magento_Backend::stores_settings">
+						<resource id="Magento_Config::config">
+							<resource id="Angel_Fifty::config_angel_fifty" title="fifty"/>
+						</resource>
+					</resource>
+				</resource>
+				<resource id="Angel_Fifty::angel_fifty" sortOrder="10" title="angel fifty">
+					<resource id="Angel_Fifty::report_index" sortOrder="10" title="report index"/>
+				</resource>
+			</resource>
+		</resources>
+	</acl>
+</config>
